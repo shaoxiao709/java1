@@ -5,12 +5,12 @@ package test;
 public class UsePhoneCard{
 	public static void main(String args[])
 	{
-		PhoneCard myCard = new PhoneCard(12345678,1234,50.0,"300");
+		PhoneCard1 myCard = new PhoneCard1(12345678,1234,50.0,"300");
 		System.out.println(myCard.toString());
 	}
 }
 
-class PhoneCard
+class PhoneCard1
 {
 	long cardNumber;
 	private int password;
@@ -18,7 +18,7 @@ class PhoneCard
 	String connectNumber;
 	boolean connected;
 	
-	PhoneCard(long cn,int pw,double b,String s)
+	PhoneCard1(long cn,int pw,double b,String s)
 	{
 		cardNumber = cn;
 		password = pw;
